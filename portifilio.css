@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*from content box to border box*/
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #c4f1ff8a;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;/*lesa ma5atoooosh *************************/
+    justify-content: space-between;/*make space between classes and search on it */
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: #1b2a53;
+    text-transform: uppercase;
+    font-weight: 700;
+    font: size 1.8em;/*em to be easy to edit*/
+}
+.navigation a{/*to select links only on this class*/
+    text-decoration: none;
+    color: #1b2a53;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    display: inline-block;
+    color: tomato;
+    scale: 1.03;
+    transition: 0.5s ease;
+}
+section{ /* all sections*/
+    padding: 100px 200px;
+
+}
+.main{
+    width: 100%;
+    min-height: 100vh; 
+    /*vh is for viewboard hightand it is a 
+    relative unit so it take at least 100 % of viewboard/;*/
+ display: flexbox;
+ align-content: center;
+align-items: center;
+
+background-image: url(background.png);
+background-repeat: no-repeat;
+background-size:cover;
+background-position: relative;
+background-position: 0 10%;
+background-attachment: fixed;
+}
+.main h2{
+    color: #223548;
+    font-size: 1.4em;
+    font-weight: 500;
+
+}
+.main .name{
+    color: #223548;
+    font-size: em;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom: 30px;
+    font-size: 2.8em;
+    color: #7596e8e6;
+    font-weight: 600;
+    
+}
+.main-button{
+    color:#fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.5s ease;
+}
+.main-button:hover{
+    background-color: blue;
+    scale: 1.05;
+}
+.social-media a{
+    color: #000;
+    margin-right: 30px;
+    font-size: 30px;
+}
+.social-media a:hover{
+    display: inline-block;
+    scale: 1.05;
+    color: #fff;
+}
+#icon{width: 30px;
+  margin-left:30px ;
+}
+                   
